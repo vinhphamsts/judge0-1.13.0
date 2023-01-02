@@ -1,0 +1,6 @@
+#!/bin/sh
+
+docker-compose up -d db redis
+sleep 20s
+docker-compose up -d
+sleep 5s
